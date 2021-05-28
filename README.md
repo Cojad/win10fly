@@ -62,46 +62,46 @@ Windows 10 x64 春季創作者更新繁體中文版原版iso(專業版+家用版
 ```
 元件
   Windows Apps
-    移除 FeedbackHub
-    移除 Office.OneNote
-    移除 OfficeHub
-    移除 OneConnect
-    移除 SolitaireCollection
-    移除 ZuneMusic
-    移除 ZuneVideo
-    移除 歡迎中心(Getstarted)
+      Apps
+        移除 FeedbackHub
+        移除 Office.OneNote
+        移除 OfficeHub
+        移除 SolitaireCollection
+        移除 ZuneMusic
+        移除 ZuneVideo
+        移除 歡迎中心(Getstarted)
+      移除 零售示範內容
 功能
   增加 SMB1.0/CIFS 共用支援(為了相容舊版網芳裝置如印表機)
+  增加 Windows Hyperviosor Platform(相容許多新的Android模擬器)
 設定
   使用者帳戶控制
-    關閉 UAC管理員
+    UAC管理員 提高權限而不提示(自動以管理員模式運行)
   桌面
-    顯示圖示 使用者的文件
-    顯示圖示 我的電腦
-    顯示圖示 控制台
-    顯示圖示 網路
+    已停用 搜尋 (工作列) 已停用
+    已啟用 顯示圖示 使用者的文件
+    已啟用 顯示圖示 我的電腦
+    已啟用 顯示圖示 控制台
+    已啟用 顯示圖示 網路
   檔案總管
-    顯示 已知檔案類型的副檔名(避免病毒偽裝圖示)
-    顯示 顯示空磁碟機
-    顯示 顯示隱藏的檔案/資料夾/磁碟機
-    使用Windows相片檢視器, 而非照片App
+    已啟用 顯示 已知檔案類型的副檔名(避免病毒偽裝圖示)
+    已啟用 顯示 顯示空磁碟機
+    已啟用 顯示 顯示隱藏的檔案/資料夾/磁碟機
+    已啟用 還原 Windows相片檢視器, 而非照片App
+    已啟用 目錄shift+right-click 操作功能選單中的命令提示字元
+    已停用 顯示[工作檢視]按鈕
+  系統
+    已停用 OneDrive
   隱私權選項
-    停用 新使用者自動安裝贊助商應用程式(消費者經驗 CandyCrush/Facebook..etc)
-    停用 預裝的OEM應用程式
-    停用 預裝的應用程式(MineCraft/CandyCrush/Flipboard磚)
+    已停用 Cortana 工作列按鈕
+    已停用 自動安裝建議的應用程式(MineCraft/CandyCrush/Flipboard等預留動態磚)
+    已停用 預裝的應用程式(消費者經驗 CandyCrush/Facebook..etc)
+    已停用 預裝的OEM應用程式
 整合
   核心 Windows 10 1803 春季創作者更新繁體中文版
   KB4338819 Windows 1803 2018 7月累積更新
   KB4338832 Adobe Flash Security Update
 無人值守
-  安裝階段WindowsPE
-    語系
-      輸入地區 中文繁體(美式鍵盤)
-      系統地區 中文繁體 zh-TW
-      使用者地區 中文繁體 zh-TW
-    設定
-      關閉 傳送安裝報告給微軟
-      略過 EULA(版權宣告)
   OOBE(第一次啟動)
     Windows語系
       輸入地區 中文繁體(美式鍵盤)
@@ -111,6 +111,14 @@ Windows 10 x64 春季創作者更新繁體中文版原版iso(專業版+家用版
       時區 台北+8
       略過 EULA(版權宣告)
       略過 建立線上Microsoft帳戶(僅使用本機帳戶)
+  安裝階段WindowsPE
+    語系
+      輸入地區 中文繁體(美式鍵盤)
+      系統地區 中文繁體 zh-TW
+      使用者地區 中文繁體 zh-TW
+    設定
+      關閉 傳送安裝報告給微軟
+      略過 EULA(版權宣告)
 後續安裝
   無
 ```
